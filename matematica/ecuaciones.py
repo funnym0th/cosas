@@ -5,7 +5,7 @@ if tipoEcuacion == 1:
     valorA = int(input("Inserta el valor A: "))
     valorB = int(input("Inserta el valor B: "))
     valorC = int(input("Inserta el valor C: "))
-    raiz = math.sqrt(valorB * valorB - 4 * valorA * valorC)
+    raiz = math.sqrt(valorB**2 - 4 * valorA * valorC)
     divisor = 2 * valorA
     print("El valor X1 de la ecuación es: ",(-valorB + raiz) / divisor)
     print("El valor X2 de la ecuación es: ",(-valorB - raiz) / divisor)
@@ -19,6 +19,6 @@ elif tipoEcuacion == 2:
 elif tipoEcuacion == 3:
     valorA = int(input("Inserta el valor A: "))
     valorB = int(input("Inserta el valor B: "))
-    raiz = math.sqrt(valorB * valorB)
+    raiz = math.sqrt(valorB**2)
     print("El valor de X1 es igual a: ",(-valorB + raiz) / (2 * valorA))
     print("El valor de X2 es igual a: ",(-valorB - raiz) / (2 * valorA))
