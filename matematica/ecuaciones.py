@@ -1,6 +1,6 @@
 import math
 
-tipoEcuacion = int(input("1: Ecuacion completa \n2: Ecuacion sin BX \n3: Ecuacion sin C \nElegir tipo de ecuacion: "))
+tipoEcuacion = int(input("1) Ecuacion completa \n2) Ecuacion sin BX \n3) Ecuacion sin C \nElegir tipo de ecuacion: "))
 if tipoEcuacion == 1:
     valorA = int(input("Inserta el valor A: "))
     valorB = int(input("Inserta el valor B: "))
